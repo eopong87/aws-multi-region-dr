@@ -71,7 +71,7 @@ resource "aws_s3_bucket_website_configuration" "primary" {
 
 resource "aws_s3_bucket" "secondary" {
   provider      = aws.secondary
-  bucket        = "${var.bucket_prefix}-dr-secondary"
+  bucket        = "${var.bucket_prefix}-dr-secondary2"
   force_destroy = true
 
   tags = {
