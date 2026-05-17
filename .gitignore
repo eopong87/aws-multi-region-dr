@@ -1,0 +1,13 @@
+# Terraform personal values — never commit this
+terraform/terraform.tfvars
+
+# Terraform generated files
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Mac system files
+.DS_Store
